@@ -54,22 +54,6 @@ do
    done
 done
 
-np=9728
-filament_length=19
-for pref in 5 ;
-do
-   for lambda in 2 ;
-   do
-      for dens in 0.05;
-      do
-         run $lambda $filament_length $pref $np $dens
-      done
-   done
-done
-
-
-
-
 exit
 
 
