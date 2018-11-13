@@ -18,11 +18,11 @@ function run {
 
 np=10240
 filament_length=20
-for pref in 1 2 ;
+for pref in 2 ;
 do
-   for lambda in 2 5 ;
+   for lambda in 5 ;
    do
-      for dens in 0.01 0.05;
+      for dens in 0.05;
       do
          run $lambda $filament_length $pref $np $dens
       done
