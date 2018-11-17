@@ -21,33 +21,7 @@ for pref in 3 ;
 do
    for lambda in 5 ;
    do
-      for dens in 0.01 0.05 ;
-      do
-         run $lambda $filament_length $pref $np $dens
-      done
-   done
-done
-
-np=10240
-filament_length=20
-for pref in 1 ;
-do
-   for lambda in 5 ;
-   do
-      for dens in 0.05;
-      do
-         run $lambda $filament_length $pref $np $dens
-      done
-   done
-done
-
-np=9728
-filament_length=19
-for pref in 5 ;
-do
-   for lambda in  5 ;
-   do
-      for dens in 0.05;
+      for dens in 0.05 ;
       do
          run $lambda $filament_length $pref $np $dens
       done
@@ -55,5 +29,3 @@ do
 done
 
 exit
-
-
