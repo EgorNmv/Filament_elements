@@ -33,9 +33,9 @@ np=10752
 filament_length=21
 for pref in 3 ;
 do
-   for lambda in 2 5 ;
+   for lambda in 2 ;
    do
-      for dens in 0.01 0.05;
+      for dens in 0.05;
       do
          run $lambda $filament_length $pref $np $dens
       done
@@ -57,5 +57,3 @@ done
 
 
 exit
-
-
